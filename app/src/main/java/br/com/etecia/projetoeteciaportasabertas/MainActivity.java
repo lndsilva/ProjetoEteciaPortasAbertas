@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void clicarImagem(View view) {
 
-        String strPessoa = "João";
+        String strPessoa = "Sub Zero Giratório";
 
         txtPessoa.setText(strPessoa);
 
-        Toast.makeText(getApplicationContext(),"Cliquei na imagem",Toast.LENGTH_SHORT).show();
+       // Toast.makeText(getApplicationContext(),"Cliquei na imagem",Toast.LENGTH_SHORT).show();
     }
 }

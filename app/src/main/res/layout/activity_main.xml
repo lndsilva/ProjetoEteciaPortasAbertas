@@ -24,26 +24,27 @@
             android:id="@+id/imgPeople"
             android:layout_width="350dp"
             android:layout_height="350dp"
-            android:src="@drawable/tecnologia" />
+            android:src="@drawable/subzero_gif" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello "
-            android:textSize="50sp" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/txtPeople"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="people "
-            android:textSize="50sp" />
+            android:text=" "
+            android:textSize="30sp" />
     </LinearLayout>
 
 
